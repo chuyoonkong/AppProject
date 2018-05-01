@@ -1,14 +1,38 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      <div text-center>
+        E-Travel
+      </div>
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <div text-center>
+    <ion-img width="*" height="*" src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=350"></ion-img>
+  </div>
+
+  <div text-center>
+  <button (click)="openHome()">
+    <img width="200" height="200" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjHroLHeF-BkKbTYQhmPwQYTlPkfO5oMmBp-SbxQ7ZWG62ZhKx7Q">
+    <br>
+    Home
+  </button>
+
+
+  <button (click)="openFlights()">
+    <img width="200" height="200" src="https://cdn.iconscout.com/public/images/icon/premium/png-512/world-tour-plane-flight-international-travel-3bbcc970283a43be-512x512.png">
+    <br>
+    Flights
+  </button>
+
+  <button (click)="login()">
+    <img width="200" height="200" src="https://designmyschool.com/sites/default/files/images/template/circle-account.png">
+    <br>
+    
+  </button>
+  </div>
+
 </ion-content>
+
