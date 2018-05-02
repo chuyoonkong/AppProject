@@ -6,10 +6,41 @@
   </ion-navbar>
 
 </ion-header>
-
-
 <ion-content padding>
-<p text-center>
-  Pick a place you would like to visit!
+<p id="textstyle" text-center>
+  Select a place you would like to visit!
 </p>
+
+<div text-center class="row">
+  <div class="col col-20">
+    <img class="img-circle" (click)="openMaldives()" src="http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/centara-grand-island-villas-maldivesallin0717.jpg?itok=R-Ph2xw5">
+    <br>
+    <p id="textstyle">Maldives</p>
+
+    <img class="img-circle" (click)="openLondon()" src="https://kidzfeed.com/wp-content/uploads/2017/08/big-ben-facts-for-kids.jpg">
+    <br>
+    <p id="textstyle">London</p>
+  </div>
+
+  <div class="col col-20">
+    <img class="img-circle" (click)="openFrance()" src="https://www.discoverwalks.com/blog/wp-content/uploads/2017/06/around-the-eiffel-tower.jpg">
+    <br>
+    <p id="textstyle">France</p>
+
+    <img class="img-circle" (click)="openBerlin()" src="https://michaellanglois.fr/medias/blick-auf-den-berliner-dom-the-westin-grand-hotel-berlin.jpg">
+    <br>
+    <p id="textstyle">Berlin</p>
+  </div>
+
+  <div class="col col-20">
+    <img class="img-circle" (click)="openTokyo()" src="https://fastjapan.com/en/wp-content/uploads/2016/02/pixta_14370821_M.jpg">
+    <br>
+    <p id="textstyle">Tokyo</p>
+
+    <img class="img-circle" (click)="openChina()" src="http://chinalogist.ru/sites/default/files/12_17.jpg">
+    <br>
+    <p id="textstyle">China</p>
+  </div>
+ </div>
+
 </ion-content>

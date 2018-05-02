@@ -7,12 +7,25 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { FlightsPage} from '../pages/flights/flights';
+import {MaldivesPage} from '../pages/maldives/maldives';
+import {LondonPage} from '../pages/london/london';
+import {BerlinPage} from '../pages/berlin/berlin';
+import {FrancePage} from '../pages/france/france';
+import {TokyoPage} from '../pages/tokyo/tokyo';
+import {ChinaPage} from '../pages/china/china';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    FlightsPage
+    FlightsPage,
+    MaldivesPage,
+    LondonPage,
+    BerlinPage,
+    FrancePage,
+    TokyoPage,
+    ChinaPage
+
 
   ],
   imports: [
@@ -23,7 +36,13 @@ import { FlightsPage} from '../pages/flights/flights';
   entryComponents: [
     MyApp,
     HomePage,
-    FlightsPage
+    FlightsPage,
+    MaldivesPage,
+    LondonPage,
+    BerlinPage,
+    FrancePage,
+    TokyoPage,
+    ChinaPage
   
   ],
   providers: [

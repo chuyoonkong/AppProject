@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the FlightsPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import {MaldivesPage} from './../maldives/maldives';
+import {LondonPage} from './../london/london';
+import {BerlinPage} from './../berlin/berlin';
+import {FrancePage} from './../france/france';
+import {TokyoPage} from './../tokyo/tokyo';
+import {ChinaPage} from './../china/china';
 
 @Component({
   selector: 'page-flights',
@@ -21,4 +20,33 @@ export class FlightsPage {
     console.log('ionViewDidLoad FlightsPage');
   }
 
+  openMaldives()
+  {
+    this.navCtrl.push(MaldivesPage);
+  }
+
+  openLondon()
+  {
+    this.navCtrl.push(LondonPage);
+  }
+
+  openFrance()
+  {
+    this.navCtrl.push(FrancePage);
+  }
+
+    openBerlin()
+  {
+    this.navCtrl.push(BerlinPage);
+  }
+
+    openTokyo()
+  {
+    this.navCtrl.push(TokyoPage);
+  }
+
+    openChina()
+  {
+    this.navCtrl.push(ChinaPage);
+  }
 }
