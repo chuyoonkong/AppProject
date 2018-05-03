@@ -1,9 +1,3 @@
-<!--
-  Generated template for the TokyoPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
 
   <ion-navbar>
@@ -14,5 +8,105 @@
 
 
 <ion-content padding>
+  <div text-center>
+    <ion-img src="http://image-src.bcg.com/Images/Tokyo_80109801_1050x590_tcm9-33862.jpg"></ion-img>
+  </div>
+  <h1 class="headd">Festivals</h1>
 
+  <ion-grid text-center class="invi">
+      <ion-row>
+        <ion-col col-18>
+            <ion-img class="img-ho" src="http://2.bp.blogspot.com/-ANkmwouCMrA/UXAv_lAK86I/AAAAAAAAAOU/60Hf9fyBi2k/s1600/trees.jpg"></ion-img>  
+            <br>
+            <p class="text">Sakura Festival</p>
+            <ion-img class="img-ho" src="http://jpninfo.com/wp-content/uploads/2017/09/nihonmatsu-lantern-festival-326x159.jpg"></ion-img>
+            <ion-img class="img-ho" src="http://jpninfo.com/wp-content/uploads/2016/01/yayoi-kids-326x159.jpg"></ion-img>
+            <ion-img class="img-ho" src="http://jpninfo.com/wp-content/uploads/2016/07/fireworks-in-japan-326x159.jpg"></ion-img>
+            <br>
+            <p>Moon Viewing Festival &nbsp;&nbsp;&nbsp;&nbsp; Yayoi Festival  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Fireworks Festival</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <hr>
+    <h1 class="headd">Hotsprings</h1>
+    <p id="des">
+Natural hot springs (温泉, onsen) are numerous and highly popular across Japan. Every region of the country has its share of hot springs and resort towns, which come with them.
+
+There are many types of hot springs, distinguished by the minerals dissolved in the water. Different minerals provide different health benefits, and all hot springs are supposed to have a relaxing effect on your body and mind. Hot spring baths come in many varieties, indoors and outdoors, gender separated and mixed, developed and undeveloped. Many hot spring baths belong to a ryokan, while others are public bath houses. An overnight stay at a hot spring ryokan is a highly recommended experience to any visitor of Japan.  </p>
+    <hr>
+    <h1 class="headd">Gallery</h1>
+    
+  <ion-grid text-center>
+    <ion-row>
+      <ion-col col-12>
+          <ion-img src="http://jpninfo.com/wp-content/uploads/2015/09/gero-onsen-frog6-326x159.jpg"></ion-img>  
+          <ion-img src="http://jpninfo.com/wp-content/uploads/2016/01/dogo-onsen-front-326x159.jpg"></ion-img>
+          <ion-img src="http://jpninfo.com/wp-content/uploads/2017/09/kawaguchi-lake-autumn-326x159.jpg"></ion-img>
+          <ion-img src="http://jpninfo.com/wp-content/uploads/2015/05/japanese-garden-1-326x159.jpg"></ion-img>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <h1 class="headd">Packages Available</h1>
+
+  <div text-center>
+    <ion-card class="cards">
+      <ion-card-header>
+        Package 1
+      </ion-card-header>
+      <p>
+        Cost: 999$
+        <br>
+        Staying: 2D1N
+        <br>
+        Ideal for: Couples
+        <br>
+        Meals: Buffet Breakfast, Lunch and Dinner Included
+      </p>
+      <button ion-button outline (click)="goTo()">
+        From 999$ Contact us for more details
+      </button>
+    </ion-card>
+  </div>
+
+  <div text-center>
+    <ion-card class="cards">
+      <ion-card-header>
+        Package 2
+      </ion-card-header>
+      <p>
+        Cost: 1299$
+        <br>
+        Staying: 4D3N
+        <br>
+        Ideal for: Couples
+        <br>
+        Meals: Buffet Breakfast, Lunch and Dinner Included 
+      </p>
+      <button ion-button outline (click)="goTo()">
+        From 1299$ Contact us for more details
+      </button>
+    </ion-card>
+  </div>
+
+  <div text-center>
+    <ion-card class="cards">
+      <ion-card-header>
+        Family Package
+      </ion-card-header>
+      <p>
+        Cost: 899$/pp
+        <br>
+        Staying: 3D2N
+        <br>
+        Ideal for: Families
+        <br>
+        Meals: Buffet Breakfast, Lunch and Dinner Included
+      </p>
+      <button ion-button outline (click)="goTo()">
+        From 899$ Contact us for more details
+      </button>
+    </ion-card>
+  </div>
 </ion-content>
+

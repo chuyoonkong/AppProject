@@ -36,7 +36,7 @@ There are channels of various sizes between the atolls used for navigation. For 
     </ion-row>
   </ion-grid>
 
-  <h1 class="headd">Package Available</h1>
+  <h1 class="headd">Packages Available</h1>
 
   <div text-center>
     <ion-card class="cards">
@@ -44,14 +44,16 @@ There are channels of various sizes between the atolls used for navigation. For 
         Package 1
       </ion-card-header>
       <p>
-        Cost: 1500$/pp
+        Cost: 1199$
         <br>
         Staying: 2D1N
         <br>
         Ideal for: Couples
+        <br>
+        Meals: Buffet Breakfast, Lunch and Dinner Included
       </p>
-      <button ion-button outline>
-        Select
+      <button ion-button outline (click)="goTo()">
+        From 1199$ Contact us for more details
       </button>
     </ion-card>
   </div>
@@ -61,8 +63,17 @@ There are channels of various sizes between the atolls used for navigation. For 
       <ion-card-header>
         Package 2
       </ion-card-header>
-      <button ion-button outline>
-        Select
+      <p>
+        Cost: 1399$
+        <br>
+        Staying: 4D3N
+        <br>
+        Ideal for: Couples
+        <br>
+        Meals: Buffet Breakfast, Lunch and Dinner Included 
+      </p>
+      <button ion-button outline (click)="goTo()">
+        From 1399$ Contact us for more details
       </button>
     </ion-card>
   </div>
@@ -70,10 +81,19 @@ There are channels of various sizes between the atolls used for navigation. For 
   <div text-center>
     <ion-card class="cards">
       <ion-card-header>
-        Package 3
+        Family Package
       </ion-card-header>
-      <button ion-button outline>
-        Select
+      <p>
+        Cost: 599$/pp
+        <br>
+        Staying: 3D2N
+        <br>
+        Ideal for: Families
+        <br>
+        Meals: Buffet Breakfast, Lunch and Dinner Included
+      </p>
+      <button ion-button outline (click)="goTo()">
+        From 599$ Contact us for more details
       </button>
     </ion-card>
   </div>

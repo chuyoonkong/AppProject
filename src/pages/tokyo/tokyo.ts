@@ -1,12 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the TokyoPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import {MailingPage} from './../mailing/mailing';
 
 @Component({
   selector: 'page-tokyo',
@@ -21,4 +15,9 @@ export class TokyoPage {
     console.log('ionViewDidLoad TokyoPage');
   }
 
+  goTo()
+  {
+    this.navCtrl.push(MailingPage);
+
+  }
 }

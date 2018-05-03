@@ -1,12 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the FrancePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import {MailingPage} from './../mailing/mailing';
 
 @Component({
   selector: 'page-france',
@@ -21,4 +15,9 @@ export class FrancePage {
     console.log('ionViewDidLoad FrancePage');
   }
 
+  goTo()
+  {
+    this.navCtrl.push(MailingPage);
+
+  }
 }

@@ -13,6 +13,7 @@ import {BerlinPage} from '../pages/berlin/berlin';
 import {FrancePage} from '../pages/france/france';
 import {TokyoPage} from '../pages/tokyo/tokyo';
 import {ChinaPage} from '../pages/china/china';
+import {MailingPage} from '../pages/mailing/mailing';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {ChinaPage} from '../pages/china/china';
     BerlinPage,
     FrancePage,
     TokyoPage,
-    ChinaPage
+    ChinaPage,
+    MailingPage
 
 
   ],
@@ -42,7 +44,8 @@ import {ChinaPage} from '../pages/china/china';
     BerlinPage,
     FrancePage,
     TokyoPage,
-    ChinaPage
+    ChinaPage,
+    MailingPage
   
   ],
   providers: [

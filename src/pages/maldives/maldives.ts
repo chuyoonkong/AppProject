@@ -1,13 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the MaldivesPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
+import {MailingPage} from './../mailing/mailing';
 @Component({
   selector: 'page-maldives',
   templateUrl: 'maldives.html',
@@ -21,4 +14,9 @@ export class MaldivesPage {
     console.log('ionViewDidLoad MaldivesPage');
   }
 
+  goTo()
+  {
+    this.navCtrl.push(MailingPage);
+
+  }
 }

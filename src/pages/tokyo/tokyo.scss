@@ -1,3 +1,42 @@
 page-tokyo {
 
+    .headd{
+        font-family: Courier New, Courier, monospace;
+        font-size: 50px;
+        color: black;
+        text-align: center;
+    }
+
+    .title{
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        font-size: 55px;
+        text-align: center;
+    }
+
+    #des{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        color: gray;
+        text-align: center;
+    }
+
+    .cards{
+        box-shadow: 0px 0px 10px 5px lightblue;
+
+    }
+
+    .img-ho{
+        border: 5px outset black;
+        box-shadow: 0px 0px 10px 5px gray;
+        -webkit-transition: all .3s ease-out;
+        -moz-transition: all .3s ease-out;
+        transition: all .3s ease-out;
+    }
+
+    .img-ho:hover{
+        -moz-transform: scale(1.15);
+        -webkit-transform: scale(1.15);
+        -ms-transform: scale(1.15);
+        transform: scale(1.05);
+    }
 }

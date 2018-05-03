@@ -1,9 +1,3 @@
-<!--
-  Generated template for the LondonPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
 
   <ion-navbar>
@@ -14,5 +8,99 @@
 
 
 <ion-content padding>
+  <div text-center>
+    <ion-img src="https://www.england.nhs.uk/london/wp-content/uploads/sites/8/2013/09/london-eye-1400x520.jpg"></ion-img>
+  </div>
+  <h1 class="headd">Description</h1>
+    <p id="des">
+      London, city, capital of the United Kingdom. It is among the oldest of the world’s great cities—its history spanning nearly two millennia—and one of the most cosmopolitan. By far Britain’s largest metropolis, it is also the country’s economic, transportation, and cultural centre.
+  </p>
+    <hr>
+    <h1 class="headd">Famous Places</h1>
+      <ion-grid text-center>
+        <ion-row>
+          <ion-col col-12>
+              <ion-img src="http://i.dailymail.co.uk/i/pix/2014/05/30/article-2643739-1E5400C600000578-712_634x679.jpg"></ion-img>  
+              <ion-img src="http://i.dailymail.co.uk/i/pix/2011/09/26/article-2041937-0E177A4700000578-99_634x410.jpg"></ion-img>
+              <br>
+              <p>Disney Land and Castle Howard </p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    <hr>
+    <h1 class="headd">Gallery</h1>
+    
+  <ion-grid text-center>
+    <ion-row>
+      <ion-col col-12>
+          <ion-img src="http://www.discoverbritainmag.com/wp-content/uploads/2017/08/Tower-Bridge-2-326x159.jpg"></ion-img>  
+          <ion-img src="http://www.discoverbritainmag.com/wp-content/uploads/2016/10/weblondon2-326x159.jpg"></ion-img>
+          <ion-img src="https://i.pinimg.com/originals/8b/3c/5c/8b3c5c0cbcd7456427b4954d06ba422c.jpg"></ion-img>
+          <ion-img src="https://mapadelondres.org/wp-content/uploads/2016/08/imagens-de-londres-istock-326x159.jpg"></ion-img>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
+  <h1 class="headd">Packages Available</h1>
+
+  <div text-center>
+    <ion-card class="cards">
+      <ion-card-header>
+        Package 1
+      </ion-card-header>
+      <p>
+        Cost: 199$
+        <br>
+        Staying: 2D1N
+        <br>
+        Ideal for: Couples
+        <br>
+        Meals: Buffet Breakfast, Lunch and Dinner Included
+      </p>
+      <button ion-button outline (click)="goTo()">
+        From 199$ Contact us for more details
+      </button>
+    </ion-card>
+  </div>
+
+  <div text-center>
+    <ion-card class="cards">
+      <ion-card-header>
+        Package 2
+      </ion-card-header>
+      <p>
+        Cost: 399$
+        <br>
+        Staying: 4D3N
+        <br>
+        Ideal for: Couples
+        <br>
+        Meals: Buffet Breakfast, Lunch and Dinner Included 
+      </p>
+      <button ion-button outline (click)="goTo()">
+        From 399$ Contact us for more details
+      </button>
+    </ion-card>
+  </div>
+
+  <div text-center>
+    <ion-card class="cards">
+      <ion-card-header>
+        Family Package
+      </ion-card-header>
+      <p>
+        Cost: 299$/pp
+        <br>
+        Staying: 3D2N
+        <br>
+        Ideal for: Families
+        <br>
+        Meals: Buffet Breakfast, Lunch and Dinner Included
+      </p>
+      <button ion-button outline (click)="goTo()">
+        From 299$ Contact us for more details
+      </button>
+    </ion-card>
+  </div>
 </ion-content>
+
