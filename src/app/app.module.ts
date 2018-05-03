@@ -6,7 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { FlightsPage} from '../pages/flights/flights';
+import { FlightsPage } from '../pages/flights/flights';
 import {MaldivesPage} from '../pages/maldives/maldives';
 import {LondonPage} from '../pages/london/london';
 import {BerlinPage} from '../pages/berlin/berlin';
@@ -14,7 +14,8 @@ import {FrancePage} from '../pages/france/france';
 import {TokyoPage} from '../pages/tokyo/tokyo';
 import {ChinaPage} from '../pages/china/china';
 import {MailingPage} from '../pages/mailing/mailing';
-
+import {LoginPage} from '../pages/login/login';
+import {SignupPage} from '../pages/signup/signup';
 @NgModule({
   declarations: [
     MyApp,
@@ -26,7 +27,9 @@ import {MailingPage} from '../pages/mailing/mailing';
     FrancePage,
     TokyoPage,
     ChinaPage,
-    MailingPage
+    MailingPage,
+    LoginPage,
+    SignupPage
 
 
   ],
@@ -34,6 +37,7 @@ import {MailingPage} from '../pages/mailing/mailing';
     BrowserModule,
     IonicModule.forRoot(MyApp)
   ],
+
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
@@ -45,7 +49,9 @@ import {MailingPage} from '../pages/mailing/mailing';
     FrancePage,
     TokyoPage,
     ChinaPage,
-    MailingPage
+    MailingPage,
+    LoginPage,
+    SignupPage
   
   ],
   providers: [
